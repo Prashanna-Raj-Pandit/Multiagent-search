@@ -1,5 +1,12 @@
-# Multiagent-search
+# CS 590 - Advanced AI - Project 2: Multi-Agent Search
 
+**Author: Prashanna Raj Pandit**
+
+<img src="images/multiagent.gif" > </img>
+
+## Overview
+
+In this project, you will implement multi-agent search algorithms to control Pacman in the classic game — now with ghosts! You will explore algorithms like Minimax, Alpha-Beta Pruning, and Expectimax, and design evaluation functions to improve Pacman’s gameplay.
 
 ```
 Question q1
@@ -207,3 +214,45 @@ Question q5: 6/6
 ------------------
 Total: 25/25
 ```
+
+### Q1 (4 pts): Reflex Agent
+
+```
+python pacman.py -p ReflexAgent -l testClassic
+python autograder.py -q q1
+```
+<img src="images/1.png" width= 300 height=450> </img>
+
+
+### Q2 (5 pts): Minimax Agent
+
+```
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
+python autograder.py -q q2
+```
+
+<img src="images/2.png" width= 300 height=300> </img>
+
+### Q3 (5 pts): Alpha-Beta Pruning
+
+```
+python pacman.py -p AlphaBetaAgent -a depth=3 -l smallClassic
+python autograder.py -q q3
+```
+
+<img src="images/3.png" width= 500 height=300> </img>
+
+### Q4 (5 pts): Expectimax
+
+```
+python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=3
+python autograder.py -q q4
+```
+<img src="images/4.png" width= 300 height=300> </img>
+
+### Q5 (6 pts): Better Evaluation Function
+
+```
+python autograder.py -q q5
+```
+<img src="images/multiagent.gif" > </img>
