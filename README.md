@@ -8,6 +8,18 @@
 
 In this project, you will implement multi-agent search algorithms to control Pacman in the classic game — now with ghosts! You will explore algorithms like Minimax, Alpha-Beta Pruning, and Expectimax, and design evaluation functions to improve Pacman’s gameplay.
 
+
+## Requiment
+
+```
+Python 2.7.18
+```
+
+## ▶️ Running the Code
+```
+python autograder.py
+```
+
 ```
 Question q1
 ===========
